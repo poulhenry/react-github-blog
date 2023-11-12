@@ -19,7 +19,12 @@ module.exports = {
         'base-subtitle': '#C4D4E3',
         'base-title': '#E7EDF4',
       },
+      backgroundImage: {
+        'header-img': "url('./assets/imgs/cover.png')"
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }

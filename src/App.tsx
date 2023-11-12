@@ -6,7 +6,9 @@ export function App() {
     <div>
       <Header />
 
-      <Outlet />
+      <main className='max-w-7xl mx-auto'>
+        <Outlet />
+      </main>
     </div>
   )
 }
